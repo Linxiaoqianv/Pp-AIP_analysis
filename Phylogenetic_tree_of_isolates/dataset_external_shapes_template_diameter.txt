@@ -1,0 +1,161 @@
+DATASET_EXTERNALSHAPE
+#Nodes have multiple values associated with them. Values will be displayed as geometric shapes of different sizes in columns outside the tree.
+#Highest value in the dataset will have the largest size, and all others will be scaled down proportionally.
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL	example shapes dataset
+
+#dataset color (can be changed later)
+COLOR	#ff0000
+
+#define colors for each individual field column (use hexadecimal, RGB or RGBA notation; if using RGB/RGBA, COMMA cannot be used as SEPARATOR)
+FIELD_COLORS	#f9be80	#f37d80
+
+#field labels
+FIELD_LABELS		WT	dagrD
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#Each dataset can have a legend, which is defined using LEGEND_XXX fields below
+#For each row in the legend, there should be one shape, color and label.
+#Optionally, you can define an exact legend position using LEGEND_POSITION_X and LEGEND_POSITION_Y. To use automatic legend positioning, do NOT define these values
+#Optionally, shape scaling can be present (LEGEND_SHAPE_SCALES). For each shape, you can define a scaling factor between 0 and 1.
+#To order legend entries horizontally instead of vertically, set LEGEND_HORIZONTAL to 1
+#Shape should be a number between 1 and 6, or any protein domain shape definition.
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+LEGEND_TITLE	Average diameter (mm)
+LEGEND_SCALE	1
+LEGEND_POSITION_X	100
+LEGEND_POSITION_Y	100
+LEGEND_HORIZONTAL	0
+LEGEND_SHAPES	2	2
+LEGEND_COLORS	#f9be80	#f37d80
+LEGEND_LABELS	WT	dagrD
+LEGEND_SHAPE_SCALES	1	1
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN,0
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL,0
+
+#show dashed lines between leaf labels and the dataset
+DASHED_LINES	0
+
+#shape height factor; Default shape height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)
+#HEIGHT_FACTOR	1
+
+#vertical and horizontal grids can be displayed connecting the shapes
+HORIZONTAL_GRID	0
+VERTICAL_GRID	0
+
+#horizontal spacing between shape columns
+#SHAPE_SPACING,10
+
+#Shape types:
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+SHAPE_TYPE	2
+
+#if set to 0, only outlines will be shown
+#COLOR_FILL,1
+
+#if set to 1, actual numeric value will be show in the center of each shape
+SHOW_VALUES	0
+
+#color of the value labels
+#VALUE_COLOR,#000000
+
+#calculate the value label color automatically (black or white), based on the darkness of the shape
+#VALUE_AUTO_COLOR,1
+
+#display or hide the text labels above each field column
+SHOW_LABELS	1
+
+#text label size factor
+#SIZE_FACTOR,1
+
+#text label rotation
+#LABEL_ROTATION,0
+
+#text label shift in pixels (positive or negative)
+#LABEL_SHIFT,0
+
+
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#ID1,value1,value2,value3
+#ID2,value4,value5,value6
+#9606,10,10,20,40
+#LEAF1|LEAF2,50,60,80,90
+Mb01	16.05	11.725
+Mb02	12.625	9.05
+Mb03	15.03333333	9.5
+Mb04	14.75	13.25
+Mb05	9.5	8.6
+Mb06	15.38333333	10.83333333
+Mb07	25.7	15.7
+Mb08	22.41428571	23.64285714
+Mb09	21.96	16.4
+Mb10	18.85	18
+Mb11	18.91666667	11.91666667
+Cm01	24.9	14.2
+Cm02	32.73333333	27.66666667
+Mc01	21.78	22.7
+Nc01	28.16	27.56
+Nc02	19.425	19.05
+Nc03	23.275	25.875
+Nc04	31.625	31.825
+Gd01	28.96	31.78
+Gd02	23.475	23.625
+Gd03	19.25	21.25
+Gd04	26	26.5
+Pb01	14.4	14.5
+Eb01	15.05	14.2
+Pm01	16.325	16.125
+Pm02	14.325	14.4
+Pm03	14	13.66666667
+Bk01	10.3	9.8
+Bk02	20.25	20
+Rb01	20.75	21.75
+Lb01	20.26666667	20.53333333
+Lb02	19.1	18.9
+Lb03	16	16.1
+Lb04	17.2	16.6
+Lb05	25.15	24.85
+Lb06	24	24
+Lb07	23.76	25.32
+Lb08	26.2	25.96
+Lb09	25.02	24.04
+Lb10	24	23.16666667
+Lb11	24.91428571	24.21428571
+Lb12	26.725	26.525
+Lb13	24.7	24.53333333
