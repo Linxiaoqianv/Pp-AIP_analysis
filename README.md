@@ -1,7 +1,18 @@
 # New Autoinducing Peptides Regulate Antibiotic Production for Sculpting Microbiome
 
-Bacteria recruit signaling molecules to regulate multiple physiological processes and mediate interactions with a diverse community of microbes in habitats. Decoding these chemical languages is instrumental in comprehending microbial regulatory mechanisms within complex microbiota. Here, we discover a novel class of autoinducing peptides (AIPs) derived from the plant-probiotic bacterium Paenibacillus polymyxa, identified as Pp-AIPs. Omics analyses coupled with genetic manipulation revealed that Pp-AIP1 modulates the production of multiple antimicrobial secondary metabolites at nanomolar concentration, a finding that broadens our understanding of antimicrobial regulatory mechanisms. Furthermore, through inoculating Paenibacillus on the plant Arabidopsis thaliana and conducting antimicrobial tests against root microbes, we discovered that Paenibacillus employs Pp-AIPs to shape the root microbiome through antimicrobial regulation. Our global analysis of biosynthetic gene clusters (BGCs) revealed that many unexplored AIPs co-occur with and likely regulate a variety of secondary metabolites. This study significantly underscores the novel roles of autoinducing peptides in regulating antibiotic production and microbiome sculpting, enhancing our understanding of microbial regulatory mechanisms within complex microbiota.
+Scripts for data analysis, statistics, and plotting figures in the manuscript.
+
+##Agr_mining
+This folder is for genome mining of the agr gene cluster.
+
+###Requirement:
+antiSMASH 6.1.1 (For installation, please refer to: https://docs.antismash.secondarymetabolites.org/install/）
+
+###./Agr_mining/Agr_mining.sh
+The Linux script for genome mining of BGC.
+
+###./Agr_mining/00.data/antismash_pfam_PF04647_protein.tsv
+Final result file.
+
 
 Reference: New Autoinducing Peptides Regulate Antibiotic Production for Sculpting Microbiome
-
-This repository of codes can reproduce the results of our study. Updating...
