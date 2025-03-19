@@ -10,13 +10,13 @@ This folder is for genome mining of the agr gene cluster.
 
 - ./Agr_mining/Agr_mining.sh
   
-The Linux script for genome mining of BGC.
+    The Linux script for genome mining of BGC.
 
-  input: Total genome <*.fna.gz>.
+    input: Total genome <*.fna.gz>.
 
 - ./Agr_mining/00.data/antismash_pfam_PF04647_protein.tsv
   
-Final result file.
+    Final result file.
 
 ## Metagenome_analysis
 This folder is for root metagenome analysis, including bacterial diversity analysis and figure drawing.
@@ -30,13 +30,13 @@ This folder is for root metagenome analysis, including bacterial diversity analy
 
 - ./Metagenome_analysis/Metagenome_analysis.sh
   
-Linux script for obtaining taxonomic matrix.
+    Linux script for obtaining taxonomic matrix.
 
-  input: Raw reads of sequencing <*.fq.gz>.
+    input: Raw reads of sequencing <*.fq.gz>.
 
 - ./Metagenome_analysis/Pp-AIP_metagenome_Figure.R
   
-R script for bacterial diversity analysis and data visualization
+    R script for bacterial diversity analysis and data visualization
 
 ## Phylogenetic_tree_of_isolates
 This folder is for isolated strain analysis, related to Figure 4C.
@@ -49,13 +49,13 @@ This folder is for isolated strain analysis, related to Figure 4C.
 
 - ./Phylogenetic_tree_of_isolates/Construction_tree.sh
   
-Linux script for construction of 16S rRNA gene phylogenetic tree.
+    Linux script for construction of 16S rRNA gene phylogenetic tree.
 
-  input: Total 16S rRNA gene sequences <latest2.total.16s.fa>.
+    input: Total 16S rRNA gene sequences <latest2.total.16s.fa>.
 
-  output: <latest2.16s_all_aligned_filtered.tree>.
+    output: <latest2.16s_all_aligned_filtered.tree>.
 
-  Output file is imported into itol for phylogenetic tree visualization. <dataset_color_strip_template_family.txt>, <dataset_external_shapes_template_diameter.txt>, and <dataset_gradient_template_rate.txt> are annotation files.
+    Output file is imported into itol for phylogenetic tree visualization. <dataset_color_strip_template_family.txt>, <dataset_external_shapes_template_diameter.txt>, and <dataset_gradient_template_rate.txt> are annotation files.
 
 
 
