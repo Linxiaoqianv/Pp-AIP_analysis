@@ -6,7 +6,7 @@ Scripts for data analysis, statistics, and plotting figures in the manuscript.
 This folder is for genome mining of the agr gene cluster.
 
 - Requirement:
->antiSMASH 6.1.1 (For installation, please refer to: https://docs.antismash.secondarymetabolites.org/install/）
+  - antiSMASH 6.1.1 (For installation, please refer to: https://docs.antismash.secondarymetabolites.org/install/）
 
 - ./Agr_mining/Agr_mining.sh
 The Linux script for genome mining of BGC.
@@ -20,11 +20,11 @@ Final result file.
 This folder is for root metagenome analysis, including bacterial diversity analysis and figure drawing.
 
 - Requirement:
->fastp 
->bowtie2
->kraken2
->bracken
->R
+  - fastp 
+  - bowtie2
+  - kraken2
+  - bracken
+  - R
 
 - ./Metagenome_analysis/Metagenome_analysis.sh
 Linux script for obtaining taxonomic matrix.
@@ -38,10 +38,10 @@ R script for bacterial diversity analysis and data visualization
 This folder is for isolated strain analysis, related to Figure 4C.
 
 - Requirement:
->mafft 
->trimal
->fasttree
->itol (online tools: https://itol.embl.de/itol.cgi)
+  - mafft 
+  - trimal
+  - fasttree
+  - itol (online tools: https://itol.embl.de/itol.cgi)
 
 - ./Phylogenetic_tree_of_isolates/Construction_tree.sh
 Linux script for construction of 16S rRNA gene phylogenetic tree.
