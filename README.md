@@ -6,7 +6,7 @@ Scripts for data analysis, statistics, and plotting figures in the manuscript.
 This folder is for genome mining of the agr gene cluster.
 
 - Requirement:
-  - antiSMASH 6.1.1 (For installation, please refer to: https://docs.antismash.secondarymetabolites.org/install/）
+  - antiSMASH 6.1.1 (For installation, please refer to: https://docs.antismash.secondarymetabolites.org/install/ ）
 
 - ./Agr_mining/Agr_mining.sh
   
